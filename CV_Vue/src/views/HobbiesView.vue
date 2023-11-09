@@ -6,4 +6,8 @@
   </div>
 </template>
 
-<style></style>
+<style>
+.hobbiesPage {
+  text-align: center;
+}
+</style>

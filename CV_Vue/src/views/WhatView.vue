@@ -6,4 +6,8 @@
   </div>
 </template>
 
-<style></style>
+<style>
+.whatPage {
+  text-align: center;
+}
+</style>

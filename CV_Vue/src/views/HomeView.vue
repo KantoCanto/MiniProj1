@@ -1,13 +1,34 @@
 <script setup></script>
 
 <template>
-  <div class="homePage">
-    <h1>This is the home page</h1>
+  <div class="container">
+    <h1 class="title">Greetings!</h1>
+    <p class="subtitle">I see you made it to my website</p>
+    <p>Hope you find something you like</p>
   </div>
 </template>
 
-<style scoepd>
-.homePage {
-  height: 100%;
+<style scoped>
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 30vh;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+@media (max-width: 500px) {
 }
 </style>
