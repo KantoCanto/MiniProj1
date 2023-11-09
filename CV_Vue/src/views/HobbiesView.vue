@@ -1,8 +1,8 @@
 <script></script>
 
 <template>
-  <div class="aboutPage">
-    <h1>This is the about me page</h1>
+  <div class="hobbiesPage">
+    <h1>This is the hobbies page</h1>
   </div>
 </template>
 

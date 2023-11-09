@@ -1,8 +1,8 @@
 <script></script>
 
 <template>
-  <div class="aboutPage">
-    <h1>This is the about me page</h1>
+  <div class="whatPage">
+    <h1>This is the what i do page</h1>
   </div>
 </template>
 
