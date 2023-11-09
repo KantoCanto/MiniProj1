@@ -22,6 +22,7 @@
   font-size: 3em;
   margin-top: 30vh;
   margin-bottom: 1rem;
+  color: antiquewhite;
 }
 
 .subtitle {
