@@ -2,81 +2,159 @@
 
 <template>
   <div class="wrapper">
-    <div class="row1 col2">
-      <div class="title"><h1>Programming</h1></div>
+    <div class="one">
+      <h1 class="title">Here are some of my Projects</h1>
     </div>
-    <div class="row2">
-      <div class="col1"></div>
-      <div class="col2"></div>
-      <div class="col3"></div>
+    <div class="two">
+      <p class="subtitle">Programming</p>
+      <div class="picture">
+        <img src="../assets/images/whatIdo/vr.png" />
+        <img src="../assets/images/whatIdo/animacao.png" />
+        <img src="../assets/images/whatIdo/pokeball_3d_model.png" />
+      </div>
+      <p>
+        <ul>
+            <p>asdasdasd<br>asdasdasdasd<br>weodnjsdnjs</p>
+        </ul>
+      </p>
     </div>
-    <div class="row3 col2">
-      <div class="title"><h1>Photography</h1></div>
+    <div class="three">
+      <p class="subtitle">Photography</p>
+      <div class="picture">
+        <img src="../assets/images/whatIdo/abstract_3d_pattern.png" />
+        <img src="../assets/images/whatIdo/animacao.png" />
+        <img src="../assets/images/whatIdo/pokeball_3d_model.png" />
+      </div>
+      <p>
+        <ul>
+            <p>asdasdasd<br>asdasdasdasd<br>weodnjsdnjs</p>
+        </ul>
+      </p>
     </div>
-    <div class="row4">
-      <div class="col1"></div>
-      <div class="col2"></div>
-      <div class="col3"></div>
-    </div>
-    <div class="row5 col2">
-      <div class="title"><h1>Animation</h1></div>
-    </div>
-    <div class="row6">
-      <div class="col1"></div>
-      <div class="col2"></div>
-      <div class="col3"></div>
+    <div class="four">
+      <p class="subtitle">2D/3D Art</p>
+      <div class="picture">
+        <img src="../assets/images/whatIdo/abstract_3d_pattern.png" />
+        <img src="../assets/images/whatIdo/animacao.png" />
+        <img src="../assets/images/whatIdo/pokeball_3d_model.png" />
+      </div>
+      <p>
+        <ul>
+            <p>asdasdasd<br>asdasdasdasd<br>weodnjsdnjs</p>
+        </ul>
+      </p>
     </div>
   </div>
 </template>
 
-<style>
+<style scoped>
 * {
   box-sizing: border-box;
 }
 .wrapper {
-  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0.1rem;
   grid-auto-rows: minmax(7rem, auto);
+  margin: 0 auto;
 }
 
-.row1 {
+.one {
+  grid-column: 1/6;
   grid-row: 1;
 }
-.row2 {
+.two {
+  grid-column: 2/5;
   grid-row: 2;
 }
-.row3 {
-  grid-row: 3;
+.two .picture {
+  grid-column: 2/3;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 }
-.row4 {
-  grid-row: 4;
+.two .subtitle {
+  text-align: center;
 }
-.row5 {
-  grid-row: 5;
-}
-.row6 {
-  grid-row: 6;
+.two .text {
+  grid-column: 3/5;
+  grid-row: 2;
 }
 
-.col1 {
-  grid-column: 1/2;
+.three {
+  grid-column: 2/5;
+  grid-row: 3;
 }
-.col2 {
-  grid-column: 3/4;
+.three .subtitle{
+    text-align: center;
 }
-.col3 {
-  grid-column: 5/6;
+.three .picture{
+    grid-column: 2/3;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.four {
+  grid-column: 2/5;
+  grid-row: 4;
+}
+
+.four .subtitle{
+    text-align: center;
+}
+.four .picture{
+     grid-column: 2/3;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .title {
   text-align: center;
-  justify-content: center;
-  margin: 0.5rem 0 0.5rem 0;
-}
-h1 {
-  font-size: 1.75rem;
+  font-size: 3em;
+  margin-top: 2rem;
   color: antiquewhite;
+}
+.subtitle {
+  text-align: left;
+  font-size: 1.5em;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: antiquewhite;
+}
+.plain {
+  text-align: center;
+  font-size: 1.5em;
+  justify-content: center;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.15em;
+}
+
+img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 5%;
+  object-fit: cover;
+  margin-left: 0.5rem;
+}
+
+ul {
+  margin: 2rem 0 1rem 0;
+}
+li {
+  list-style: none;
+}
+@media (max-width: 500px) {
 }
 </style>
