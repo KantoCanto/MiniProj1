@@ -14,13 +14,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 2rem;
+  height: 70vh;
 }
 
 .title {
+  margin-top: 20vh;
   text-align: center;
   font-size: 3em;
-  margin-top: 30vh;
   margin-bottom: 1rem;
   color: antiquewhite;
 }

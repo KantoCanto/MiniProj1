@@ -1,21 +1,20 @@
 <script setup>
 import { RouterView } from "vue-router";
 import Navbar from "./components/Navbar.vue";
-import Footer from "./components/Footer.vue";
+import FooterVue from "./components/Footer.vue";
 </script>
 
 <template>
   <div id="app-container">
     <Navbar />
     <RouterView />
-    <Footer />
+    <FooterVue />
   </div>
 </template>
 
 <style scoped>
 html,
-body,
-#app-container {
+body {
   height: 100%;
 }
 #app-container {
@@ -23,6 +22,5 @@ body,
   flex-direction: column;
   overflow: hidden;
   min-height: 100vh;
-  padding-bottom: 1.5rem;
 }
 </style>

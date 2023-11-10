@@ -48,6 +48,7 @@
   gap: 0.1rem;
   grid-auto-rows: minmax(7rem, auto);
   margin: 0 auto;
+  height: 75vh;
 }
 
 .hobby {
@@ -62,7 +63,6 @@
 .two {
   grid-column: 1/3;
   grid-row: 2;
-  margin-top: 4rem;
 }
 .two .picture {
   grid-column: 2/3;
@@ -83,7 +83,6 @@
 .three {
   grid-column: 4/6;
   grid-row: 2;
-  margin-top: 4rem;
 }
 .three .subtitle {
   text-align: center;
@@ -110,6 +109,7 @@ img {
   border-radius: 5%;
   object-fit: cover;
   margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 ul {

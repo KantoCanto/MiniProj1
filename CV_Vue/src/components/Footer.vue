@@ -1,75 +1,86 @@
 <script setup></script>
 
 <template>
-  <footer>
-    <div>
-      <ul>
-        <li><a href="https://twitter.com/KantoCanto">Twitter</a></li>
-        <li><a href="mailto:dummie_email_123@gmail.com">Email</a></li>
-        <li><a href="https://www.instagram.com/o_okanto/">Instagram</a></li>
-        <li><a href="https://github.com/KantoCanto">Github</a></li>
-        <li>
-          <a href="https://www.linkedin.com/in/bruno-canto-932501278/"
-            >LinkedIn</a
-          >
-        </li>
-      </ul>
-    </div>
-  </footer>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <div class="footerDiv">
+    <ul>
+      <li>
+        <a href="https://twitter.com/KantoCanto"
+          ><i class="fab fa-x-twitter icon"></i
+        ></a>
+      </li>
+      <li>
+        <a href="mailto:dummie_email_123@gmail.com"
+          ><i class="fa-regular fa-envelope icon"></i
+        ></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/o_okanto/"
+          ><i class="fab fa-instagram icon"></i
+        ></a>
+      </li>
+      <li>
+        <a href="https://github.com/KantoCanto"
+          ><i class="fab fa-github icon"></i
+        ></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/bruno-canto-932501278/"
+          ><i class="fab fa-linkedin icon"></i
+        ></a>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <style scoped>
-footer {
+.footerDiv {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 2rem 0 2rem 0;
-}
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline-grid;
-  grid-auto-flow: row;
-  grid-gap: 2rem;
-  justify-items: center;
+  overflow: scroll;
+  margin-top: 2rem;
 }
 
-@media (min-width: 500px) {
-  ul {
-    grid-auto-flow: column;
-  }
-}
-@media (max-width: 500px) {
-  footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-  }
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-grid;
+  grid-auto-flow: column;
+  justify-items: center;
+  grid-gap: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 a {
-  color: white;
-  text-decoration: none;
-  box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+  color: antiquewhite;
 }
 
-a:hover {
-  box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+a :hover {
+  color: hsla(160, 100%, 37%, 1);
+}
+.icon {
+  margin: 0;
+  padding: 0;
 }
 
-li:last-child {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-div {
-  line-height: 1.3;
-  font-family: Menlo, monospace;
+@media (max-width: 500px) {
+  ul {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 </style>

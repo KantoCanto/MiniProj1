@@ -70,6 +70,7 @@
 .two {
   grid-column: 2/5;
   grid-row: 2;
+  margin-bottom: 1rem;
 }
 .two .picture {
   grid-column: 2/3;
@@ -90,6 +91,7 @@
 .three {
   grid-column: 2/5;
   grid-row: 3;
+  margin-bottom: 1rem;
 }
 .three .subtitle{
     text-align: center;
@@ -105,6 +107,7 @@
 .four {
   grid-column: 2/5;
   grid-row: 4;
+  margin-bottom: 1rem;
 }
 
 .four .subtitle{
