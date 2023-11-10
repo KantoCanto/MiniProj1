@@ -62,6 +62,7 @@
 .two {
   grid-column: 1/3;
   grid-row: 2;
+  margin-top: 4rem;
 }
 .two .picture {
   grid-column: 2/3;
@@ -82,6 +83,7 @@
 .three {
   grid-column: 4/6;
   grid-row: 2;
+  margin-top: 4rem;
 }
 .three .subtitle {
   text-align: center;

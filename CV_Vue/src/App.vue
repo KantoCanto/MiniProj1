@@ -21,8 +21,8 @@ body,
 #app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   overflow: hidden;
+  min-height: 100vh;
   padding-bottom: 1.5rem;
 }
 </style>
