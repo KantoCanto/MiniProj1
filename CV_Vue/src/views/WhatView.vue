@@ -83,11 +83,6 @@
 .two .subtitle {
   text-align: center;
 }
-.two .text {
-  grid-column: 3/5;
-  grid-row: 2;
-}
-
 .three {
   grid-column: 2/5;
   grid-row: 3;
@@ -136,18 +131,6 @@
   margin-bottom: 2rem;
   color: antiquewhite;
 }
-.plain {
-  text-align: center;
-  font-size: 1.5em;
-  justify-content: center;
-}
-
-.description {
-  text-align: center;
-  margin-bottom: 1rem;
-  font-size: 1.15em;
-}
-
 img {
   height: 8rem;
   width: 8rem;

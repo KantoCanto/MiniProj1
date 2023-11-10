@@ -78,7 +78,6 @@
   grid-auto-rows: minmax(7rem, auto);
   margin: 0 auto;
 }
-
 .one {
   grid-column: 1/6;
   grid-row: 1;
@@ -99,7 +98,6 @@
   grid-column: 3/5;
   grid-row: 2;
 }
-
 .three {
   grid-column: 2/5;
   grid-row: 3;
@@ -113,18 +111,7 @@
   grid-column: 2/4;
   grid-row: 5;
 }
-/* .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 2rem;
-} */
 
-.p {
-  text-align: justify;
-  text-align-last: left;
-}
 .title {
   text-align: center;
   font-size: 3em;

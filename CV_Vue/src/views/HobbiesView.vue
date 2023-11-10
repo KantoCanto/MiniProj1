@@ -64,38 +64,10 @@
   grid-column: 1/3;
   grid-row: 2;
 }
-.two .picture {
-  grid-column: 2/3;
-  grid-row: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-.two .subtitle {
-  text-align: center;
-}
-.two .text {
-  grid-column: 3/5;
-  grid-row: 2;
-}
-
 .three {
   grid-column: 4/6;
   grid-row: 2;
 }
-.three .subtitle {
-  text-align: center;
-}
-.three .picture {
-  grid-column: 2/3;
-  grid-row: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
 .title {
   text-align: center;
   font-size: 3em;
