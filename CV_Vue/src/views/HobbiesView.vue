@@ -10,12 +10,12 @@
       <p class="subtitle">Programming</p>
       <div class="picture">
         <img src="../assets/images/whatIdo/vr.png" />
-        <img src="../assets/images/whatIdo/animacao.png" />
-        <img src="../assets/images/whatIdo/pokeball_3d_model.png" />
+        <img src="../assets/images/whatIdo/bookscore.png">
+        <img src="../assets/images/whatIdo/lostrune.png" />
       </div>
       <p>
         <ul>
-            <p>asdasdasd<br>asdasdasdasd<br>weodnjsdnjs</p>
+            <p>Experiência de Realidade Virtual - Minipuzzle<br>asdasdasdasd<br>weodnjsdnjs</p>
         </ul>
       </p>
     </div>

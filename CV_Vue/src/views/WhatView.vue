@@ -5,31 +5,30 @@
     <div class="one">
       <h1 class="title">Here are some of my Projects</h1>
     </div>
-    <div class="two">
+   <div class="two">
       <p class="subtitle">Programming</p>
       <div class="picture">
         <img src="../assets/images/whatIdo/vr.png" />
-        <img src="../assets/images/whatIdo/animacao.png" />
-        <img src="../assets/images/whatIdo/pokeball_3d_model.png" />
+        <img src="../assets/images/whatIdo/bookscore.png">
+        <img src="../assets/images/whatIdo/lostrune.png" />
       </div>
       <p>
         <ul>
-            <p>asdasdasd<br>asdasdasdasd<br>weodnjsdnjs</p>
+            <p>
+                Experiência de Realidade Virtual - Mini Puzzle<br>
+                Aplicação CRUD para registo de livros<br>
+                The Lost Rune - Jogo 2D feito no Unity
+            </p>
         </ul>
       </p>
     </div>
     <div class="three">
       <p class="subtitle">Photography</p>
       <div class="picture">
-        <img src="../assets/images/whatIdo/abstract_3d_pattern.png" />
-        <img src="../assets/images/whatIdo/animacao.png" />
-        <img src="../assets/images/whatIdo/pokeball_3d_model.png" />
+        <img src="../assets/images/whatIdo/1.jpg" />
+        <img src="../assets/images/whatIdo/2.jpg" />
+        <img src="../assets/images/whatIdo/3.jpg" />
       </div>
-      <p>
-        <ul>
-            <p>asdasdasd<br>asdasdasdasd<br>weodnjsdnjs</p>
-        </ul>
-      </p>
     </div>
     <div class="four">
       <p class="subtitle">2D/3D Art</p>
@@ -40,7 +39,11 @@
       </div>
       <p>
         <ul>
-            <p>asdasdasd<br>asdasdasdasd<br>weodnjsdnjs</p>
+            <p>
+               Padrão modular abstrato feito no Blender<br>
+                Animação 2D feita no Clip Studio Paint<br>
+                Animação 3D feita no Blender
+            </p>
         </ul>
       </p>
     </div>
