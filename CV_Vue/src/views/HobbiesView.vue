@@ -1,50 +1,40 @@
 <script></script>
 
-
 <template>
   <div class="wrapper">
     <div class="one">
       <h1 class="title">My Hobbies</h1>
     </div>
     <div class="two">
-      <p class="subtitle">Programming</p>
-      <div class="picture">
-        <img src="../assets/images/whatIdo/vr.png" />
-        <img src="../assets/images/whatIdo/bookscore.png">
-        <img src="../assets/images/whatIdo/lostrune.png" />
+      <div class="hobby">
+        <img src="../assets/images/hobbies/camera-outline.svg" />
+        <p>Photography</p>
       </div>
-      <p>
-        <ul>
-            <p>Experiência de Realidade Virtual - Minipuzzle<br>asdasdasdasd<br>weodnjsdnjs</p>
-        </ul>
-      </p>
+      <div class="hobby">
+        <img src="../assets/images/hobbies/basketball-outline.svg" />
+        <p>Basketball</p>
+      </div>
+      <div class="hobby">
+        <img src="../assets/images/hobbies/game-controller-outline.svg" />
+        <p>Gaming</p>
+      </div>
     </div>
     <div class="three">
-      <p class="subtitle">Photography</p>
-      <div class="picture">
-        <img src="../assets/images/whatIdo/abstract_3d_pattern.png" />
-        <img src="../assets/images/whatIdo/animacao.png" />
-        <img src="../assets/images/whatIdo/pokeball_3d_model.png" />
+      <div class="hobby">
+        <img src="../assets/images/hobbies/musical-notes-outline.svg" />
+        <p>Music</p>
       </div>
-      <p>
-        <ul>
-            <p>asdasdasd<br>asdasdasdasd<br>weodnjsdnjs</p>
-        </ul>
-      </p>
-    </div>
-    <div class="four">
-      <p class="subtitle">2D/3D Art</p>
-      <div class="picture">
-        <img src="../assets/images/whatIdo/abstract_3d_pattern.png" />
-        <img src="../assets/images/whatIdo/animacao.png" />
-        <img src="../assets/images/whatIdo/pokeball_3d_model.png" />
+      <div class="hobby">
+        <img src="../assets/images/hobbies/library-outline.svg" />
+        <p>Reading</p>
       </div>
-      <p>
-        <ul>
-            <p>asdasdasd<br>asdasdasdasd<br>weodnjsdnjs</p>
-        </ul>
-      </p>
+      <div class="hobby">
+        <img src="../assets/images/hobbies/pencil-outline.svg" />
+        <p>Drawing</p>
+      </div>
     </div>
+
+    <div class="four"></div>
   </div>
 </template>
 
@@ -60,12 +50,17 @@
   margin: 0 auto;
 }
 
+.hobby {
+  text-align: center;
+  margin: 1rem;
+}
+
 .one {
   grid-column: 1/6;
   grid-row: 1;
 }
 .two {
-  grid-column: 2/5;
+  grid-column: 1/3;
   grid-row: 2;
 }
 .two .picture {
@@ -85,30 +80,14 @@
 }
 
 .three {
-  grid-column: 2/5;
-  grid-row: 3;
-}
-.three .subtitle{
-    text-align: center;
-}
-.three .picture{
-    grid-column: 2/3;
+  grid-column: 4/6;
   grid-row: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem;
 }
-.four {
-  grid-column: 2/5;
-  grid-row: 4;
+.three .subtitle {
+  text-align: center;
 }
-
-.four .subtitle{
-    text-align: center;
-}
-.four .picture{
-     grid-column: 2/3;
+.three .picture {
+  grid-column: 2/3;
   grid-row: 2;
   display: flex;
   justify-content: center;
@@ -122,29 +101,10 @@
   margin-top: 2rem;
   color: antiquewhite;
 }
-.subtitle {
-  text-align: left;
-  font-size: 1.5em;
-  justify-content: center;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  color: antiquewhite;
-}
-.plain {
-  text-align: center;
-  font-size: 1.5em;
-  justify-content: center;
-}
-
-.description {
-  text-align: center;
-  margin-bottom: 1rem;
-  font-size: 1.15em;
-}
 
 img {
-  height: 8rem;
-  width: 8rem;
+  height: 6rem;
+  width: 6rem;
   border-radius: 5%;
   object-fit: cover;
   margin-left: 0.5rem;
@@ -155,7 +115,5 @@ ul {
 }
 li {
   list-style: none;
-}
-@media (max-width: 500px) {
 }
 </style>
